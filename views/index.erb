@@ -19,8 +19,10 @@
 			<div>
 				Price: <%= p.price %>₽
 			</div>
-
-
+			<div>
+				<button class="btn btm-sm btn-success" onclick="add_to_cart(<%= p.id %>)">Добавить в корзину</button>
+			</div>
+ 
 		</div>
 	<% end %>
 
