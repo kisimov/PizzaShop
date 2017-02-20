@@ -10,6 +10,11 @@ class Product < ActiveRecord::Base
 	
 end 
 
+class Ordder <ActiveRecord::Base
+
+end
+
+
 get '/' do
 	@products =Product.all
 	erb :index
