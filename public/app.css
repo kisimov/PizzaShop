@@ -8,3 +8,13 @@
 	padding-left: 20px;
 	padding-bottom: 10px;
 }
+
+#title {
+	font-size: 30px;
+	color: orange;
+	font-style: italic;
+}
+
+.head_bar {
+	font-size: 18px;
+}
